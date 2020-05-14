@@ -1,0 +1,38 @@
+.Feedback-Button {
+    box-shadow: 0px -2px 5px 0.1px silver;
+    top: 300px;
+    background-color: #f7f7f7 !important;
+    color: rgba(0, 0, 0, 1) !important;
+    right: -20px;
+    transform: rotate(-90deg);
+    text-transform: capitalize !important;
+    position: fixed !important;
+
+}
+
+.Grid-JCN {
+     background-color: 'blue' !important;
+ }
+
+
+.Grid-PartNumber {
+    background-color: 'red' !important;;
+}
+
+.Grid-Serial {
+    background-color: 'yellow' !important;
+}
+
+.Grid-Main-Body {
+     height: 100pv;
+     background-color: white !important;
+ }
+
+.Grid-Aircraft {
+     height: 100pv;
+     background-color: yellow !important;
+ }
+
+.Grid-Main-Top {
+    backgroundColor: 'grey';
+}
