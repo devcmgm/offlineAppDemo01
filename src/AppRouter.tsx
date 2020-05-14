@@ -11,19 +11,19 @@ const AppRouter: React.FC = (props) => {
                 <Route exact
                     path="/logout"
                     render={(props: RouteComponentProps) => (
-                        <Logout {...props} />)
+                        <Logout  />)
                     }
                 />
                 <Route exact
                        path="/authorizedUser"
                        render={(props: RouteComponentProps) =>
-                           <Data {...props} />
+                           <Data  />
                        }
                 />
                 <Route exact
                        path="/"
                        render={(props: RouteComponentProps) =>
-                           <Welcome {...props} />
+                           <Welcome  />
                        }
                 />
             </Switch>
